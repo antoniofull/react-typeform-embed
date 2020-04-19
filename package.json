@@ -1,0 +1,34 @@
+{
+  "name": "npm-package-react-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A basic template to create and publish your own React component as NPM package",
+  "homepage": "https://github.com/antoniofull/npm-package-react-template",
+  "author": "Antonio Fullone",
+  "keywords": [
+    "reactjs, template"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf lib && webpack"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@testing-library/react": "^10.0.2",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "jest": "^25.3.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
