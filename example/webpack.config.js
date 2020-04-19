@@ -1,3 +1,4 @@
+const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -16,6 +17,11 @@ module.exports = {
         loader: 'babel-loader',
       },
     ],
+  },
+  resolve: {
+    alias: {
+      react: path.resolve('./node_modules/react'),
+    },
   },
   plugins: [
     new HtmlWebpackPlugin({

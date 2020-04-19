@@ -1,3 +1,4 @@
-import React from 'react'
+import TypeformEmbedWidget from './Widget'
+import { usePopup } from './usePopup'
 
-export default () => <h1>Hello World!</h1>
+export { TypeformEmbedWidget as default, usePopup }
